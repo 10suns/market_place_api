@@ -1,0 +1,1 @@
+A web app is built following http://apionrails.icalialabs.com/book/
