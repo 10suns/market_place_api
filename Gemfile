@@ -37,12 +37,12 @@ end
 
 group :test do
   gem "rspec-rails"
-  gem "factory_girl_rails"
-  gem 'ffaker'
   gem 'shoulda-matchers'
 end
 
 group :development, :test do
+  gem "factory_girl_rails"
+  gem 'ffaker'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
@@ -53,4 +53,11 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'devise'
+gem "devise"
+
+# Sabisu gems
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.4'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
